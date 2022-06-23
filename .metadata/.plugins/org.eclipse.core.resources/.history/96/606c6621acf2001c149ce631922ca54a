@@ -1,0 +1,31 @@
+/*
+ * tomarDatos.h
+ *
+ *  Created on: 20 jun. 2022
+ *      Author: ayala
+ */
+int inicializarArray(eVivienda* list, int len);
+
+int cargaForzadaCencistas(eCencista array[],int len);
+
+int cargaForzadaCatastros(eCatastro array[],int len);
+
+int cargarCatastrosYCencistas(eVivienda list[],eCencista cencistas[],eCatastro catastros[],int len);
+
+int ingresar(eVivienda* list,int len);
+
+int findById(eVivienda* list, int len,int id);
+
+int modificarVivienda(eVivienda* list,int len);
+
+int eliminar(eVivienda* list, int len);
+
+void listarCencistas(eCencista cencistas[],int len);
+
+void imprimirPorTipo(eVivienda list[],int len);
+
+void imprimirPorLocalidad(eVivienda list[],int len);
+
+void listarViviendas(eVivienda list[],int len,eCencista listCencistas[],eCatastro listCatastros[]);
+
+void imprimirUnaVivienda(eVivienda list[]);

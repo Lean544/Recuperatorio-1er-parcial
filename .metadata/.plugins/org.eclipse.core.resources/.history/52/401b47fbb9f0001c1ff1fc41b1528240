@@ -1,0 +1,11 @@
+/*
+ * tomarDatos.h
+ *
+ *  Created on: 20 jun. 2022
+ *      Author: ayala
+ */
+int inicializarArray(eVivienda list[], int len);
+
+int cargaForzadaCencistas(eCencista array[],int len);
+
+

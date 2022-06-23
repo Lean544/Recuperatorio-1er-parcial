@@ -1,0 +1,15 @@
+/*
+ * tomarDatos.h
+ *
+ *  Created on: 20 jun. 2022
+ *      Author: ayala
+ */
+int inicializarArray(eVivienda* list, int len);
+
+int cargaForzadaCencistas(eCencista array[],int len);
+
+int cargaForzadaCatastros(eCatastro array[],int len);
+
+int tomarDatos(char* calle[],int* cantPer,int* cantHab,int tipoViv);
+
+int ingresar(eVivienda* list,int len);
